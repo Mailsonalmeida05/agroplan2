@@ -79,15 +79,13 @@ body {
     margin-right: 3rem;
 }
 .img-hands-xl {
-
     width: 80%;
     margin-bottom: 20px;
     margin-top: 5em;
     margin-left: 10%;
     align-items: center;
-
-
 }
+
 @media(max-width: 1000px){
     .img-hands-xl {
 
@@ -103,7 +101,7 @@ body {
 }
 .aboutUs-img{
     display: flex;
-    margin-top: 120px;
+    margin-top: 200px;
     justify-content: center;
 }
 .img-hands-xl1 {
