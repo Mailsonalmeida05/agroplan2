@@ -883,6 +883,11 @@ span {
     }
 }
 
+.about{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
 @media (max-width: 973px) {
     #menu-icon {
         display: block;
