@@ -41,6 +41,7 @@ body {
     color: var(--text-color);
 }
 .lk{
+    padding: 0px 7%;
     text-align: left;
     color: black;
 }
@@ -118,9 +119,6 @@ body {
     .img-hands-xl1 {
         width: 70%;
     }
-    .aboutUs-img{
-        margin-top: 300px;
-    }
 }
 
 .about-content2 h2 {
@@ -186,7 +184,7 @@ section .home {
 }
 
 section {
-    padding: 10rem 7% 2rem;
+    padding: 0 7% 2rem;
 }
 .home {
     display: flex;
@@ -435,13 +433,17 @@ span {
     color: #006633;
 }
 
+.about-footer {
+    margin-top: 40px;
+}
+
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    margin-top: 100px;
 }
+
 
 .about-img img {
     width: 600px;
@@ -452,8 +454,6 @@ span {
 
     font-size: 4.5rem;
     text-align: center;
-
-}
 
 }
 .heading1 {
@@ -485,7 +485,13 @@ span {
 }
 
 .services {
+    margin-top: 10em;
     min-height: auto;
+}
+div.about {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .services h2 {
@@ -511,6 +517,7 @@ span {
     border-top: .6rem solid white;
     border-bottom: .6rem solid white;
     transition: .5s ease;
+    padding: 0px 20px;
 }
 
 .services-container .services-box:hover {
@@ -809,7 +816,7 @@ span {
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 0 3% 0;
     }
 
     .home .profession-container .profession-box {
@@ -878,9 +885,6 @@ span {
     .navbar a:nth-child(2) {
         color: var(--white-color);
     }
-    .aboutUs-img {
-        margin-top: 300px;
-    }
     .img-hands-xl1{
         width: 90%;
     }
@@ -889,9 +893,6 @@ span {
 @media (max-width: 973px) {
     #menu-icon {
         display: block;
-    }
-    .about {
-        margin-top: 300px;
     }
 
     .about img {
@@ -959,6 +960,9 @@ span {
             max-width: 99%;
             margin:0 auto;
         }
+    }
+    div.about {
+        margin-top: 20px;
     }
     .home .home-content {
         margin-top: 180px;
