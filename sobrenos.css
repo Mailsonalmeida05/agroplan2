@@ -894,7 +894,10 @@ div.about {
     #menu-icon {
         display: block;
     }
-
+    div.second{
+        display: flex;
+        flex-direction: column;
+    }
     .about img {
         width: 80%;
     }
