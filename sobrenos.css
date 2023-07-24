@@ -507,7 +507,6 @@ div.about {
 }
 
 .services-container .services-box {
-
     flex: 1 1 1rem;
     background: var(--bg-color);
     padding: 3rem 2rem 4rem;
@@ -518,6 +517,7 @@ div.about {
     border-bottom: .6rem solid white;
     transition: .5s ease;
     padding: 0px 20px;
+    max-width: 25%;
 }
 
 .services-container .services-box:hover {
@@ -798,6 +798,9 @@ div.about {
     .home-img img {
         right: 0;
     }
+    .services-container .services-box{
+        max-width: 30%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -857,6 +860,9 @@ div.about {
 
     .home-img img {
         display: none;
+    }
+    .services-container .services-box{
+        max-width: 33%;
     }
 
 }
@@ -1069,6 +1075,9 @@ div.about {
 @media (max-width: 580px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
+    }
+    .services-container .services-box{
+        max-width: 100%;
     }
 }
 @media (max-width: 925px) {
